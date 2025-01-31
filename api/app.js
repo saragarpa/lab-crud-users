@@ -13,7 +13,6 @@ app.use(express.json());
 app.use(logger("dev")); 
 
 
-
 /*API Routes Configuration*/
 const routes = require("./config/routes.config");
 app.use("/api/v1/", routes)
